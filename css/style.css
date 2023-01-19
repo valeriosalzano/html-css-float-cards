@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
 /* main container */
 main {
     max-width: 1170px;
@@ -51,9 +55,10 @@ p.introduction {
 }
 
 .name {
+    text-transform: uppercase;
     line-height: 30px;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 700;
 }
 .job {
     line-height: 20px;
