@@ -45,24 +45,22 @@ p.introduction {
 }
 .card_content img {
     height:100px;
-    float: left;
+    vertical-align: middle;
 }
 .card_data {
-    float: left;
-    padding: 10px 0 0 20px;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    line-height: 25px;
 }
 
 .name {
     text-transform: uppercase;
-    line-height: 30px;
     font-size: 20px;
     font-weight: 700;
 }
-.job {
-    line-height: 20px;
-}
+
 a.email {
-    line-height: 30px;
     text-decoration: none;
     color: #00B9F1;
 }
